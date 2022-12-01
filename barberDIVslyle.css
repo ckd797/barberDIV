@@ -130,6 +130,10 @@ main {
     flex: 1;
 }
 
+/* .advan h1, img, p {
+    margin-bottom: 10px;
+} */
+
 .advanMargin {
     margin-bottom: 10px;
 }
