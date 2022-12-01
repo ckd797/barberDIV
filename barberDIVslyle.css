@@ -68,13 +68,18 @@ main {
     background-color: black;
     color: white;
     width: 140px;
-    padding: 10px 0;
+    padding: 14px 0;
     text-decoration: none;
     text-align: center;
 }
 
 .linkButton:hover {
-    text-decoration: underline;
+    transform: scale(105%);
+    background-color: chocolate;
+}
+
+.linkButton:active { 
+    transform: scale(90%);
 }
 
 .button {
@@ -95,6 +100,11 @@ main {
     padding-right: 20px;
     padding-bottom: 5px;
     cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(105%);
+    background-color: chocolate;
 }
 
 .button:active {
@@ -134,24 +144,30 @@ main {
 .cube {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
-    padding: 50px;
+    padding: 30px 40px;
 }
 
 .randomNews {
     display: flex;
+    flex-direction: column;
 }
 
-.razdelitel {
-
+.time {
+    opacity: 0.5;
+    margin-bottom: 5px;
 }
 
-.galeryImg {
-    width: 30px;
+.cube img {
+    width: 200px;
+    margin: 5px;
 }
 
-.contInfoButtons {
+.lineButtonsAndLinkButtons {
     display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
 }
 
 .footer {
