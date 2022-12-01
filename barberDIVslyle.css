@@ -1,0 +1,133 @@
+@font-face{
+    font-family: "PtSans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("PtSans"),
+         url("res/fonts/ptsansnarrow.woff2") format("woff2"),
+         url("res/fonts/ptsansnarrow.woff") format("woff");
+}
+
+@font-face{
+    font-family: "PtSansBold";
+    font-style: bold;
+    font-weight: 400;
+    src: local("PtSansBold"),
+         url("res/fonts/ptsansnarrowbold.woff2") format("woff2"),
+         url("res/fonts/ptsansnarrowbold.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: PtSans;
+}
+
+.content {
+    width: 960px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(res/img/bodyfon.jpg);
+    color: white;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinkButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkButton {
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    width: 140px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.linkButton:hover {
+    text-decoration: underline;
+}
+
+.button {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 10px 20px 0px 0;
+    width: 140px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(90%);
+}
+
+.logo {
+    width: 286px;
+}
+
+.advans {
+    display: flex;
+}
+
+.advan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    background-image: url(res/img/linefon.png);
+    color: black;
+    margin-bottom: 36px;
+}
+
+.cube {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
+}
+
+.randomNews {
+    display: flex;
+}
+
+.razdelitel {
+
+}
+
+.galeryImg {
+    width: 30px;
+}
+
+.contInfoButtons {
+    display: flex;
+}
+
+.footer {
+
+}
