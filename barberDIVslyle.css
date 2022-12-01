@@ -56,10 +56,12 @@ main {
     justify-content: space-between;
 }
 
+.navButtonSign {
+}
+
 .linkButton {
     background-color: black;
     color: white;
-    margin-right: 20px;
     width: 140px;
     padding: 10px 0;
     text-decoration: none;
@@ -74,9 +76,8 @@ main {
     border: none;
     background-color: black;
     color: white;
-    margin: 10px 20px 0px 0;
     width: 140px;
-    padding: 10px 0;
+    height: 44px;
     cursor: pointer;
 }
 
