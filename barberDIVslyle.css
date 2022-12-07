@@ -23,6 +23,11 @@
     text-transform: uppercase;
     font-family: PtSansBold;
     font-size: 14px;
+    border-radius: 10px;
+}
+
+*:hover{
+    
 }
 
 h1 {
@@ -71,11 +76,14 @@ main {
     padding: 14px 0;
     text-decoration: none;
     text-align: center;
+    transition: 120ms;
+    border-radius: 10px;
 }
 
 .linkButton:hover {
     transform: scale(105%);
-    background-color: chocolate;
+    box-shadow: chocolate 0 0 10px;
+    border-radius: 30px;
 }
 
 .linkButton:active { 
@@ -89,6 +97,8 @@ main {
     width: 140px;
     height: 44px;
     cursor: pointer;
+    border-radius: 10px;
+    transition: 120ms;
 }
 
 .buttonSign {
@@ -104,7 +114,8 @@ main {
 
 .button:hover {
     transform: scale(105%);
-    background-color: chocolate;
+    box-shadow: chocolate 0 0 10px;
+    border-radius: 30px;
 }
 
 .button:active {
