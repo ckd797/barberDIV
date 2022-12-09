@@ -81,7 +81,7 @@ main {
 }
 
 .linkButton:hover {
-    transform: scale(105%);
+    transform: scale(110%);
     box-shadow: chocolate 0 0 10px;
     border-radius: 30px;
 }
@@ -113,7 +113,7 @@ main {
 }
 
 .button:hover {
-    transform: scale(105%);
+    transform: scale(110%);
     box-shadow: chocolate 0 0 10px;
     border-radius: 30px;
 }
